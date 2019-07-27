@@ -7,8 +7,9 @@
 ## This is a *fork* of the original *nedb*
 In this package the "browser" option was removed. In the original package indexedDB is used whenever it is run in a browser. However, in order to use nedb in *electron* from the renderer process (a browser window), I need nedb to use node.js and access the file system directly. Now my electron apps will store the datastores as files on the system.
 
-*Do not use this package if you need to use IndexDB*
-*If you create a node.js app, you don't need this package, as the original nedb wil figure that out itself*
+**Do not use this package if you need to use IndexDB**
+
+**If you create a node.js app, you don't need this package, as the original nedb wil figure that out itself**
 
 **IMPORTANT NOTE**: Please don't submit issues for questions regarding your code. Only actual bugs or feature requests will be answered, all others will be closed without comment. Also, please follow the <a href="#bug-reporting-guidelines">bug reporting guidelines</a> and check the <a href="https://github.com/louischatriot/nedb/wiki/Change-log" target="_blank">change log</a> before submitting an already fixed bug :)
 
