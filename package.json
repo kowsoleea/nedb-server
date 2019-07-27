@@ -1,14 +1,15 @@
 {
-  "name": "nedb",
+  "name": "nedb-server",
   "version": "1.8.0",
   "author": {
-    "name": "Louis Chatriot",
-    "email": "louis.chatriot@gmail.com"
+    "name": "Ivanildo Kowsoleea",
+    "email": "ikowsoleea@gmail.com"
   },
   "contributors": [
-    "Louis Chatriot"
+    "Louis Chatriot",
+    "Ivanildo Kowsoleea"
   ],
-  "description": "File-based embedded data store for node.js",
+  "description": "File-based embedded data store for node.js - server-side",
   "keywords": [
     "database",
     "datastore",
